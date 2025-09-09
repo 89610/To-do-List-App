@@ -11,6 +11,11 @@
     background: linear-gradient(135deg, #153677, #4e085f);
     padding: 10px;
 }
+@media (max-width: 320px){
+    .container{
+        padding: 15px;
+    } 
+ }
 
 .todo-app{
     width: 100%;
@@ -133,3 +138,4 @@ ul li span:hover{
     
 
 }
+
