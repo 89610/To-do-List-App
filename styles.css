@@ -78,6 +78,14 @@ button:hover{
     background:rgba(0, 0, 255, 0.762);
     
 }
+@media (max-width: 330px){
+    button{
+        flex-direction: row;
+        padding: 17px 28px;
+        margin-left: -40px;
+
+    }
+}
 
 ul li{
     list-style: none;
@@ -123,4 +131,5 @@ ul li span{
 ul li span:hover{
     background: #edeef0;
     
+
 }
